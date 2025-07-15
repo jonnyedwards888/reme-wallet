@@ -1,0 +1,35 @@
+.circular-ring-container {
+  position: relative;
+}
+
+.circular-ring-svg {
+  transform: rotate(-90deg);
+}
+
+.ring-background {
+  stroke: rgba(255, 255, 255, 0.1);
+  fill: transparent;
+}
+
+.ring-progress {
+  fill: transparent;
+  stroke-linecap: round;
+  transition: all 1s ease-out;
+}
+
+.ring-center-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.25rem;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.1));
+}

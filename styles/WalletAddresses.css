@@ -1,0 +1,73 @@
+.wallet-addresses-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.addresses-toggle {
+  width: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.addresses-toggle:hover {
+  background: inherit !important;
+  padding: 0 !important;
+}
+
+.addresses-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.addresses-content {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.address-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-type {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.address-value {
+  font-size: 0.875rem;
+  color: white;
+  font-family: monospace;
+}
+
+.copy-address-button {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.copy-address-button:hover {
+  background: inherit !important;
+}

@@ -60,7 +60,7 @@ export default function ReMeLifeWallet() {
         {/* User Greeting */}
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Hi, Lucas Hooper
+            Hi, Vitalik Buterin
           </h2>
           <Button
             onClick={() => (window.location.href = "/rewards")}

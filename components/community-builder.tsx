@@ -30,7 +30,7 @@ export default function CommunityBuilder() {
   const [copiedAddress, setCopiedAddress] = useState(false);
 
   const userStats = {
-    name: "Lucas Hooper",
+    name: "Vitalik Buterin",
     walletAddress: "0xa3D2571F0D66064444A4A092f90b2A2947b9293D2",
     totalCapsFromReferrals: 0,
     friendsReferred: 0,

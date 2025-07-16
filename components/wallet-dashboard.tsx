@@ -47,7 +47,7 @@ export default function WalletDashboard() {
       <main className="wallet-main">
         {/* User Greeting */}
         <div className="user-greeting">
-          <h2 className="greeting-title">Hi, Lucas Hooper</h2>
+          <h2 className="greeting-title">Hi, Vitalik Buterin</h2>
         </div>
 
         {/* Wallet Addresses */}

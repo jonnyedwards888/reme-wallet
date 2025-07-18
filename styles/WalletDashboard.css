@@ -318,7 +318,7 @@
   padding: 0;
 }
 
-.lumi-icon-container,
+.ori-icon-container,
 .service-icon-container {
   flex-shrink: 0;
 }
@@ -337,7 +337,7 @@
   margin-bottom: 0.5rem;
 }
 
-.service-icon, .lumi-icon, .community-builder-icon, .defi-hub-icon, .reme-market-icon {
+.service-icon, .ori-icon, .community-builder-icon, .defi-hub-icon, .reme-market-icon {
   width: 44px !important;
   height: 44px !important;
   border-radius: 12px !important;
@@ -353,7 +353,7 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
-.service-icon-container .lumi-icon {
+.service-icon-container .ori-icon {
   padding: 0 !important;
   margin: 0 !important;
 }

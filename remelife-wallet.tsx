@@ -307,7 +307,7 @@ export default function ReMeLifeWallet() {
                 </CardContent>
               </Card>
 
-              {/* Lumi - Coming Soon */}
+              {/* Ori - Coming Soon */}
               <Card className="relative overflow-hidden bg-white/8 backdrop-blur-xl border border-white/15 transition-all duration-500 group">
                 {/* Frosted overlay for coming soon */}
                 <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px] z-10"></div>
@@ -324,7 +324,7 @@ export default function ReMeLifeWallet() {
                           </div>
                         </TooltipTrigger>
                         <TooltipContent>
-                          <p>Information about Lumi</p>
+                          <p>Information about Ori</p>
                         </TooltipContent>
                       </Tooltip>
                       <div className="bg-gradient-to-r from-amber-400 to-orange-500 text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg z-20 relative">
@@ -333,16 +333,16 @@ export default function ReMeLifeWallet() {
                     </div>
                   </div>
                   <h4 className="text-2xl font-bold text-white/70 mb-3 drop-shadow-sm">
-                    Lumi
+                    Ori
                   </h4>
                   <p className="text-white/50 text-sm mb-6 leading-relaxed font-medium">
-                    Earn, buy and convert LUMI tokens
+                    Earn, buy and convert ORI tokens
                   </p>
                   <Button
                     className="w-full bg-white/5 hover:bg-white/10 text-white/50 font-bold py-3 rounded-xl border border-white/10 cursor-not-allowed transition-all duration-300"
                     disabled
                   >
-                    VISIT LUMI
+                    VISIT ORI
                   </Button>
                 </CardContent>
               </Card>

@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <title>ReMe Wallet</title>
-        <link rel="icon" href="/logos/lumi-main-logo.png" type="image/png" />
+        <link rel="icon" href="/logos/ori-main-logo.png" type="image/png" />
       </Head>
       <body>{children}</body>
     </html>

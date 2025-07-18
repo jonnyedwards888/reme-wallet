@@ -362,7 +362,7 @@ export default function WalletDashboard() {
               </div>
             </div>
 
-            {/* Lumi */}
+            {/* Ori */}
             <div className="service-card">
               <div
                 className="service-content"
@@ -400,9 +400,9 @@ export default function WalletDashboard() {
                   >
                     <div className="service-icon-container">
                       <img
-                        className="lumi-icon"
-                        src="/logos/lumi-main-logo.png"
-                        alt="Lumi Logo"
+                        className="ori-icon"
+                        src="/logos/ori-main-logo.png"
+                        alt="Ori Logo"
                         style={{ width: 40, height: 40, borderRadius: 8 }}
                       />
                     </div>
@@ -410,22 +410,22 @@ export default function WalletDashboard() {
                       <Info className="info-icon" />
                     </div>
                   </div>
-                  <h4 className="service-title">Lumi</h4>
+                  <h4 className="service-title">Ori</h4>
                   <p className="service-description">
-                    Earn, buy and convert LUMI tokens
+                    Earn, buy and convert ORI tokens
                   </p>
                 </div>
                 <button
                   className="service-button"
                   onClick={() =>
                     window.open(
-                      "https://lumi-ai.io/",
+                      "https://ori-ai.io/",
                       "_blank",
                       "noopener,noreferrer"
                     )
                   }
                 >
-                  VISIT LUMI
+                  VISIT ORI
                 </button>
               </div>
             </div>
